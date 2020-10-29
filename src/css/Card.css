@@ -1,0 +1,125 @@
+body{
+    background-color: #E5E5E5
+}
+.card-main-div{
+    width: 305px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Avenir;
+    position: relative;
+    background-color: #fff;
+    top: 50px;
+    left: 50px;
+}
+.card-main-div > *{
+    position: absolute;
+}
+.card-main-div .element-div{
+    width: 243px;
+}
+.card-main-div .doc-icon-div{
+    top: 25px;       
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FEDEDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-main-div .doc-icon-div .doc-icon{
+    font-size: 25px;   
+    color: #DA0703;    
+}
+.card-main-div .title-div{
+    top: 78px;
+    height: 22px;
+}
+.card-main-div .title-div .title-span{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+}
+.card-main-div .content-div{
+    top: 110px;
+    height: 72px;
+}
+.card-main-div .content-div .content-span{
+    font-size: 12px;
+    line-height: 18px;
+}
+.card-main-div .button-div{
+    top: 236px;
+}
+.card-main-div .button-div .button-element{
+    width: inherit;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #8C14FC;
+    font-family: Avenir;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #8C14FC;
+}
+.card-main-div .dropdown-div{
+    top: 16px;
+    right: 14px;
+    display: none;
+}
+.card-main-div .dropdown-div .dropdown-btn{
+    width: 34px;
+    height: 34px;
+    border: 1px solid #F1F4F6;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card-main-div .dropdown-div .dropdown-ul{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    list-style-type: none;
+    margin: 0px 0px 0px 4px;
+    padding: 9px 0px 0px 0px;
+    width: 148px;
+    height: 110px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card-main-div .dropdown-div .dropdown-ul li{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding: 0px 16px;
+    align-items: center;
+    background-color: #fff;
+}
+.card-main-div .dropdown-div .dropdown-ul li .list-span{
+    padding-left: 17px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Avenir;
+}
+.card-main-div .dropdown-div .dropdown-ul li:nth-child(3){
+    color: #EB5757;
+}
+.card-main-div:hover .dropdown-div{
+    display: block;
+}
+.card-main-div .dropdown-div:hover .dropdown-ul{
+    display: block;
+}
+.card-main-div .dropdown-div:hover .dropdown-ul li:nth-child(1){
+    background-color: #B05EFD;
+    color: #fff;
+}
+.card-main-div .shadow-div{
+    background-color: #FEDEDD;
+    width: 304px;
+    height: 4px;
+    top: 296px;
+}
